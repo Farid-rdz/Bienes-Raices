@@ -33,10 +33,3 @@ CREATE TABLE IF NOT EXISTS usuarios (
 
 Los archivos de `build/` están incluidos. Para trabajar con las fuentes, instala Node y ejecuta `npm ci` y `npm run dev`. `node_modules` no se versiona.
 
-## Alcance
-
-Versión para práctica local. Contacto es un formulario visual sin envío de correos. La base de datos local no se transporta automáticamente con el repositorio. El código conserva la versión del ZIP entregado; en `actualizar.php` conviene retirar el bloque de depuración `var_dump($_FILES)` antes de demostrarlo.
-
-## Créditos
-
-Proyecto adaptado a partir del material de curso identificado en `package.json`, que conserva su autoría original.
